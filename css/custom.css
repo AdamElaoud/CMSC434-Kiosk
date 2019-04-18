@@ -1,0 +1,16 @@
+img{
+    margin: 0 auto;
+}
+
+#image{
+    display: block;
+}
+
+section {
+    display: block;
+    margin: 50px;
+}
+
+.nav{
+    margin: 50px;
+}
