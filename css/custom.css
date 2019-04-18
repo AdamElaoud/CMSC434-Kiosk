@@ -41,6 +41,12 @@ a {
     background-color: #dc3545;
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
 .flag{
     width: 200px;
     height: 150px;
