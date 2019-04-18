@@ -10,7 +10,9 @@ img{
 }
 section {
     display: block;
-    margin: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .nav{
