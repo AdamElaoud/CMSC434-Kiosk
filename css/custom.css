@@ -2,10 +2,12 @@ img{
     margin: 0 auto;
 }
 
-#image{
+#image {
     display: block;
+    max-width: 100%;
+    height: auto;
+    width: auto;
 }
-
 section {
     display: block;
     margin: 50px;
@@ -13,4 +15,33 @@ section {
 
 .nav{
     margin: 50px;
+}
+
+body{
+    font-family: Crimson,serif!important;
+    font-size: 1.076923076923077em!important;
+}
+
+#banner{
+    background-color: #e21833!important;
+    color: white;
+    padding: 10px;
+}
+
+button{
+    border: none;
+}
+
+a {
+    color: #dc3545;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #dc3545;
+}
+
+.flag{
+    width: 200px;
+    height: 150px;
 }
