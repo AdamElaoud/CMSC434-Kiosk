@@ -38,7 +38,7 @@
 
   <!-- Rooms -->
   <div class="container-fluid">
-    <div class="col-sm-3">
+    <div class="col-sm-4">
       <table class="table">
         <thead class = 'thead-dark'>
           <tr>
@@ -47,20 +47,53 @@
         </thead>
         <tbody>
           <tr>
-            <td>SR1125</td>
+            <td><a href="#" onclick = "changeImage('img/floor_plans/Directions1.jpg');">STU1125</td>
           </tr>
           <tr>
-            <td>LEC3147</td>
+            <td><a href="#">LEC3147</td>
           </tr>
           <tr>
-            <td>CR2314</td>
+            <td><a href="#">CLR2314</td>
+          </tr>
+          <tr>
+            <td><a href="#">CR1231</td>
+          </tr>
+          <tr>
+            <td><a href="#">CR2314</td>
+          </tr>
+          <tr>
+            <td><a href="#">CR2314</td>
+          </tr>
+          <tr>
+            <td><a href="#">CR2314</td>
+          </tr>
+          <tr>
+            <td><a href="#">CR2314</td>
+          </tr>
+          <tr>
+            <td><a href="#">CR2314</td>
+          </tr>
+          <tr>
+            <td><a href="#">CR2314</td>
+          </tr>
+          <tr>
+            <td><a href="#">CR2314</td>
           </tr>
         </tbody>
       </table>
     </div>
+    <div class="col-sm-8">
+      <img class="float-right" id="image" src="img/floor_plans/Iribe_Floor1.jpg"></img>
+    </div>
   </div>
+
   <script src="js/nav.js"></script>
   <script src="js/banner.js"></script>
+  <script type="text/javascript">
+    function changeImage(element) {
+    document.getElementById('image').src = element;
+  }
+  </script>
 </body>
 
 </html>
