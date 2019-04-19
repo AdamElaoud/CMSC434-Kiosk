@@ -8,7 +8,7 @@ img{
     height: auto;
     width: auto;
 }
-section {
+section#language {
     display: block;
     position: absolute;
     bottom: 0;
