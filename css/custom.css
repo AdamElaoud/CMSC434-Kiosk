@@ -1,18 +1,14 @@
-img{
-    margin: 0 auto;
+* {
+    font-family: 'Roboto', sans-serif;
 }
 
-#image {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    width: auto;
+#nav-home {
+    margin-top: 2rem;
+    font-size: 1.25rem;
 }
-section#language {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+
+.nav-item:hover {
+    color: #dc3545;
 }
 
 .nav{
@@ -48,9 +44,4 @@ a {
     color: #fff;
     background-color: #dc3545;
     border-color: #dc3545;
-}
-
-.flag{
-    width: 200px;
-    height: 150px;
 }
