@@ -4,7 +4,7 @@ fillModal();
 function fillModal() {
     let modal = document.getElementById("modal-content");
 
-    let table = '<table class = "table table-striped table-bordered"><thead class = "thead-dark"><tr><th>Time/Day</th><th>M</th><th>T</th><th>W</th><th>Th</th><th>F</th><th>S</th><th>Sun</th></tr></thead><tbody>';
+    let table = '<table class = "table table-striped table-bordered"><thead class = "thead-dark"><tr><th>Time/Day</th><th>M</th><th>T</th><th>W</th><th>Th</th><th>F</th><th>S</th><th>S</th></tr></thead><tbody>';
 
     for (let i = 0; i < 13; i++) {
         let time;
