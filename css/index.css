@@ -38,3 +38,7 @@ img{
     color: #000;
     font-weight: bold;
 }
+
+.border {
+    border: 12px solid red
+}
