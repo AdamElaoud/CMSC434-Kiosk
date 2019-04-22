@@ -40,10 +40,9 @@
 
 .open {
     background-color: #7CDA2F;
-    border-color: #7CDA2F;
+    cursor: pointer;
 }
 
 .filled {
     background-color: #DB2D3A;
-    border-color: #DB2D3A;
 }

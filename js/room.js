@@ -28,10 +28,20 @@ function fillModal() {
     modal.innerHTML = table;
 }
 
+// color change
+$(".open").on("click", function(event) {
+    if ($(this).css("background-color") === "rgb(124, 218, 47)") {
+        $(this).css("background-color", "rgb(118, 172, 216)");
+
+    } else if ($(this).css("background-color") === "rgb(118, 172, 216)"){
+        $(this).css("background-color", "rgb(124, 218, 47)");
+    }
+});
+
 $("#reserveRoom").on('click',function(event){
     event.preventDefault();
 
-    $("#reserveRoom").append(`
+    $("#reserveRoom").siblings(".spinner").append(`
     <div class="spinner-border text-primary" id="loading" role="status">
         <span class="sr-only">Loading...</span>
     </div>`);
@@ -40,16 +50,16 @@ $("#reserveRoom").on('click',function(event){
         $("#exampleModal").modal('toggle');
 
         $("#notification").empty();
-    
-        $("#notification").append(`  
+
+        $("#notification").append(`
             <div class="alert alert-success alert-dismissible ">
                 <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
                 <strong>Success!</strong> Reservation has been made!
             </div>`);
-    
+
         removeLoading();
     }, 1000);
-    
+
 })
 
 
