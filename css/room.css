@@ -1,3 +1,29 @@
 .card {
     margin: 1.5rem;
 }
+
+.icon-check {
+    color: #6FC74E;
+    margin-right: 1rem;
+}
+
+.icon-X {
+    color: #DB2D3A;
+    margin-right: 1rem;
+}
+
+.card-title {
+    margin-top: 1rem;
+    color: #000;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #000;
+    margin-bottom: 1rem !important;
+}
+
+.available:hover {
+    background-color: #7CDA2F;
+    border-color: #7CDA2F;
+}
