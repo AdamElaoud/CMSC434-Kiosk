@@ -16,24 +16,32 @@
 .logo {
     width: 21rem;
     height: auto;
+    margin-bottom: .25rem;
 }
 
 .card-text {
     color: #000;
     margin-top: 1rem;
     background-color: rgba(0,0,0,.03);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .btn {
     height: 2.25rem;
     margin-bottom: 1rem;
-    /* background-color: #DB2D3A;
-    border-color: #DB2D3A; */
+    background-color: #DB2D3A;
+    border-color: #DB2D3A;
 }
 
 .btn:hover {
-    background-color: #7CDA2F;
-    border-color: #7CDA2F;
+    background-color: #8F000A;
+    border-color: #8F000A;
+}
+
+.email {
+    max-width: 20rem;
 }
 
 .card-footer {
