@@ -5,7 +5,7 @@ function arrayToTable(tableData) {
     $(tableData).each(function (i, rowData) {
         let row = $('<tr></tr>');
 
-        row.append($('<td>IRB '+ rowData.Room +'</td>'));
+        row.append($('<td><a href="map.html">IRB '+ rowData.Room +'</a></td>'));
         row.append($('<td>'+ rowData.ID +'</td>'));
         row.append($('<td>'+ rowData.First +'</td>'));
         row.append($('<td>'+ rowData.Last +'</td>'));
