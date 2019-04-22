@@ -31,14 +31,29 @@ function fillModal() {
 $("#reserveRoom").on('click',function(event){
     event.preventDefault();
 
-    $("#exampleModal").modal('toggle');
+    $("#reserveRoom").append(`
+    <div class="spinner-border text-primary" id="loading" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>`);
 
-    $("#notification").empty();
+    setTimeout(function(){
+        $("#exampleModal").modal('toggle');
 
-    $("#notification").append(`  
-        <div class="alert alert-success alert-dismissible ">
-            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-            <strong>Success!</strong> Reservation has been made!
-        </div>`);
-
+        $("#notification").empty();
+    
+        $("#notification").append(`  
+            <div class="alert alert-success alert-dismissible ">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                <strong>Success!</strong> Reservation has been made!
+            </div>`);
+    
+        removeLoading();
+    }, 1000);
+    
 })
+
+
+function removeLoading(){
+    $("#loading").html('');
+    $("#loading").remove();
+}
