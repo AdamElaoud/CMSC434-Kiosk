@@ -17,7 +17,7 @@ $(".available").on('click',function(event){
             $("#notification").append(`  
             <div class="alert alert-success alert-dismissible ">
                 <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-                <strong>Success!</strong> Event has been added to your calendar.
+                <strong>Success!</strong> Event has been sent to your calendar at ${$('.emailEvent').val()}.
             </div>`);
             removeLoading();
 
