@@ -1,99 +1,116 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 
 <head>
-    <meta charset = "utf-8">
-    <meta name = "viewport" content = "width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name = "description" content = "">
-    <meta name = "author" content = "">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
     <title>Iribe Kiosk - Events</title>
 
     <!-- Favicon -->
-    <link rel = "shortcut icon" href = "img/umd-logo.png">
+    <link rel="shortcut icon" href="img/umd-logo.png">
 
     <!-- Bootstrap core CSS -->
-    <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity = "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin = "anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- Bootstrap core JS -->
-    <script src = "https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity = "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin = "anonymous"></script>
-    <script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity = "sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin = "anonymous"></script>
-    <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity = "sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin = "anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 
     <!-- Custom fonts for this template -->
-    <link rel = "stylesheet" href = "https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity = "sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin = "anonymous">
-    <link href = "https://fonts.googleapis.com/css?family=Montserrat:400,700" rel = "stylesheet" type = "text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+        type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
-    <link href = "css/custom.css" rel = "stylesheet">
-    <link href = "css/events.css" rel = "stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/events.css" rel="stylesheet">
 
 </head>
 
-<body id = "page-top">
+<body id="page-top">
     <!-- Navigation -->
-    <nav id = "nav-events" class = "nav nav-pills nav-fill justify-content-center"></nav>
+    <nav id="nav-events" class="nav nav-pills nav-fill justify-content-center"></nav>
+
+
+    <!-- Notification -->
+    <div id="notification"></div>
 
     <div>
-        <div class = "container">
+        <div class="container">
             <!-- Row #1 -->
-            <div class = "card-deck">
+            <div class="card-deck">
                 <!-- Card #1 -->
-                <div class = "card text-center">
-                    <div class = "card-block">
-                        <h4 class = "card-title">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title">
                             Maryland Day
                         </h4>
-                        <img class = "logo" src = "img/events/mday-logo.png">
+                        <img class="logo" src="img/events/mday-logo.png">
                     </div>
-                    <div class = "card-footer">
-                        <i class = "far fa-calendar-alt"></i> April 27th, 2019
+                    <div class="card-footer">
+                        <i class="far fa-calendar-alt"></i> April 27th, 2019
                         <br />
-                        <span class = "font-weight-bold">10:00 AM - 4:00 PM</span>
+                        <span class="font-weight-bold">10:00 AM - 4:00 PM</span>
                         <br />
-                        <i class = "fas fa-map-marker-alt"></i> University of Maryland<br><br>
+                        <i class="fas fa-map-marker-alt"></i> University of Maryland<br><br>
                     </div>
-                    <div class = "card-text">
-                        <button type = "button" class  = "available btn btn-success">Add to Calendar</button>
+                    <div class="card-text">
                         <!-- Email Input -->
-                        <div class = "email input-group input-group-sm mb-3">
-                            <div class = "input-group-prepend">
-                                <span class = "input-group-text" id = "inputGroup-sizing-sm">Email:</span>
+                        <div class="email input-group input-group-sm mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">Email:</span>
                             </div>
-                            <input type = "text" class = "form-control" aria-label = "Small" aria-describedby = "inputGroup-sizing-sm">
+                            <input type="text" class="form-control emailEvent" aria-label="Small"
+                                aria-describedby="inputGroup-sizing-sm">
                         </div>
+                        <button type="button" class="available btn btn-success">Add to Calendar</button>
+
                     </div>
                 </div>
 
                 <!-- Card #2 -->
-                <div class = "card text-center">
-                    <div class = "card-block">
-                        <h4 class = "card-title">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title">
                             NatureRx@UMD Launch Day
                         </h4>
-                        <p class = "card-text">
-                            <img class = "logo" src = "img/events/naturerx-logo.png">
+                        <p class="card-text">
+                            <img class="logo" src="img/events/naturerx-logo.png">
                         </p>
                     </div>
-                    <div class = "card-footer">
-                        <i class = "far fa-calendar-alt"></i> April 22nd, 2019
+                    <div class="card-footer">
+                        <i class="far fa-calendar-alt"></i> April 22nd, 2019
                         <br />
-                        <span class = "font-weight-bold">8:00 AM - 8:00 PM</span>
+                        <span class="font-weight-bold">8:00 AM - 8:00 PM</span>
                         <br />
-                        <i class = "fas fa-map-marker-alt"></i> Eppley Recreation Center<br><br>
+                        <i class="fas fa-map-marker-alt"></i> Eppley Recreation Center<br><br>
                     </div>
-                    <div class = "card-text">
-                        <button type = "button" class  = "available btn btn-success">Add to Calendar</button>
+                    <div class="card-text">
                         <!-- Email Input -->
-                        <div class = "email input-group input-group-sm mb-3">
-                            <div class = "input-group-prepend">
-                                <span class = "input-group-text" id = "inputGroup-sizing-sm">Email:</span>
+                        <div class="email input-group input-group-sm mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">Email:</span>
                             </div>
-                            <input type = "text" class = "form-control" aria-label = "Small" aria-describedby = "inputGroup-sizing-sm">
+                            <input type="text" class="form-control emailEvent" aria-label="Small"
+                                aria-describedby="inputGroup-sizing-sm">
                         </div>
+                        <button type="button" class="available btn btn-success">Add to Calendar</button>
+
                     </div>
                 </div>
 
@@ -103,125 +120,132 @@
                         <h4 class = "card-title">
                             Engineering Day
                         </h4>
-                        <p class = "card-text">
-                            <img class = "logo" src = "img/events/engineering-logo.jpg">
+                        <p class="card-text">
+                            <img class="logo" src="img/events/engineering-logo.jpg">
                         </p>
                     </div>
-                    <div class = "card-footer">
-                        <i class = "far fa-calendar-alt"></i> April 22nd, 2019
+                    <div class="card-footer">
+                        <i class="far fa-calendar-alt"></i> April 22nd, 2019
                         <br />
-                        <span class = "font-weight-bold">9:00 AM - 5:00 PM</span>
+                        <span class="font-weight-bold">9:00 AM - 5:00 PM</span>
                         <br />
-                        <i class = "fas fa-map-marker-alt"></i> A. James Clark Hall<br><br>
+                        <i class="fas fa-map-marker-alt"></i> A. James Clark Hall<br><br>
                     </div>
-                    <div class = "card-text">
-                        <button type = "button" class  = "available btn btn-success">Add to Calendar</button>
+                    <div class="card-text">
                         <!-- Email Input -->
-                        <div class = "email input-group input-group-sm mb-3">
-                            <div class = "input-group-prepend">
-                                <span class = "input-group-text" id = "inputGroup-sizing-sm">Email:</span>
+                        <div class="email input-group input-group-sm mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">Email:</span>
                             </div>
-                            <input type = "text" class = "form-control" aria-label = "Small" aria-describedby = "inputGroup-sizing-sm">
+                            <input type="text" class="form-control emailEvent" aria-label="Small"
+                                aria-describedby="inputGroup-sizing-sm">
                         </div>
+                        <button type="button" class="available btn btn-success">Add to Calendar</button>
+
                     </div>
                 </div>
             </div>
 
             <!-- Row #2 -->
-            <div class = "card-deck mt-20">
+            <div class="card-deck mt-20">
 
                 <!-- Card #4 -->
-                <div class = "card text-center">
-                    <div class = "card-block">
-                        <h4 class = "card-title">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title">
                             Earth Day Festival
                         </h4>
-                        <p class = "card-text">
-                            <img class = "logo" src = "img/events/earth-day-logo.jpg">
+                        <p class="card-text">
+                            <img class="logo" src="img/events/earth-day-logo.jpg">
                         </p>
                     </div>
-                    <div class = "card-footer">
-                        <i class = "far fa-calendar-alt"></i> April 22nd, 2019
+                    <div class="card-footer">
+                        <i class="far fa-calendar-alt"></i> April 22nd, 2019
                         <br />
-                        <span class = "font-weight-bold">3:00 PM - 6:00 PM</span>
+                        <span class="font-weight-bold">3:00 PM - 6:00 PM</span>
                         <br />
-                        <i class = "fas fa-map-marker-alt"></i> Adele H. Stamp Student Union<br><br>
+                        <i class="fas fa-map-marker-alt"></i> Adele H. Stamp Student Union<br><br>
                     </div>
-                    <div class = "card-text">
-                        <button type = "button" class  = "available btn btn-success">Add to Calendar</button>
+                    <div class="card-text">
                         <!-- Email Input -->
-                        <div class = "email input-group input-group-sm mb-3">
-                            <div class = "input-group-prepend">
-                                <span class = "input-group-text" id = "inputGroup-sizing-sm">Email:</span>
+                        <div class="email input-group input-group-sm mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">Email:</span>
                             </div>
-                            <input type = "text" class = "form-control" aria-label = "Small" aria-describedby = "inputGroup-sizing-sm">
+                            <input type="text" class="form-control emailEvent" aria-label="Small"
+                                aria-describedby="inputGroup-sizing-sm">
                         </div>
+                        <button type="button" class="available btn btn-success">Add to Calendar</button>
+
                     </div>
                 </div>
 
                 <!-- Card #5 -->
-                <div class = "card text-center">
-                    <div class = "card-block">
-                        <h4 class = "card-title">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title">
                             Open Mic Night
                         </h4>
-                        <p class = "card-text">
-                            <img class = "logo" src = "img/events/open-mic-logo.jpg">
+                        <p class="card-text">
+                            <img class="logo" src="img/events/open-mic-logo.jpg">
                         </p>
                     </div>
-                    <div class = "card-footer">
-                        <i class = "far fa-calendar-alt"></i> May 13th, 2019
+                    <div class="card-footer">
+                        <i class="far fa-calendar-alt"></i> May 13th, 2019
                         <br />
-                        <span class = "font-weight-bold">7:30 PM - 10:30pm</span>
+                        <span class="font-weight-bold">7:30 PM - 10:30pm</span>
                         <br />
-                        <i class = "fas fa-map-marker-alt"></i> The Clarice Smith Performing Arts Center
+                        <i class="fas fa-map-marker-alt"></i> The Clarice Smith Performing Arts Center
                     </div>
-                    <div class = "card-text">
-                        <button type = "button" class  = "available btn btn-success">Add to Calendar</button>
+                    <div class="card-text">
                         <!-- Email Input -->
-                        <div class = "email input-group input-group-sm mb-3">
-                            <div class = "input-group-prepend">
-                                <span class = "input-group-text" id = "inputGroup-sizing-sm">Email:</span>
+                        <div class="email input-group input-group-sm mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">Email:</span>
                             </div>
-                            <input type = "text" class = "form-control" aria-label = "Small" aria-describedby = "inputGroup-sizing-sm">
+                            <input type="text" class="form-control emailEvent" aria-label="Small"
+                                aria-describedby="inputGroup-sizing-sm">
                         </div>
+                        <button type="button" class="available btn btn-success">Add to Calendar</button>
+
                     </div>
                 </div>
 
                 <!-- Card #6 -->
-                <div class = "card text-center">
-                    <div class = "card-block">
-                        <h4 class = "card-title">
+                <div class="card text-center">
+                    <div class="card-block">
+                        <h4 class="card-title">
                             Bach Cantata
                         </h4>
-                        <p class = "card-text">
-                            <img class = "logo" src = "img/events/bach-cantata-logo.jpg">
+                        <p class="card-text">
+                            <img class="logo" src="img/events/bach-cantata-logo.jpg">
                         </p>
                     </div>
-                    <div class = "card-footer">
-                        <i class = "far fa-calendar-alt"></i> May 2nd, 2019
+                    <div class="card-footer">
+                        <i class="far fa-calendar-alt"></i> May 2nd, 2019
                         <br />
-                        <span class = "font-weight-bold">1:30 PM - 3:30pm</span>
+                        <span class="font-weight-bold">1:30 PM - 3:30pm</span>
                         <br />
-                        <i class = "fas fa-map-marker-alt"></i> The Clarice Smith Performing Arts Center
+                        <i class="fas fa-map-marker-alt"></i> The Clarice Smith Performing Arts Center
                     </div>
-                    <div class = "card-text">
-                        <button type = "button" class  = "available btn btn-success">Add to Calendar</button>
+                    <div class="card-text">
                         <!-- Email Input -->
-                        <div class = "email input-group input-group-sm mb-3">
-                            <div class = "input-group-prepend">
-                                <span class = "input-group-text" id = "inputGroup-sizing-sm">Email:</span>
+                        <div class="email input-group input-group-sm mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">Email:</span>
                             </div>
-                            <input type = "text" class = "form-control" aria-label = "Small" aria-describedby = "inputGroup-sizing-sm">
+                            <input type="text" class="form-control emailEvent" aria-label="Small"
+                                aria-describedby="inputGroup-sizing-sm">
                         </div>
+                        <button type="button" class="available btn btn-success">Add to Calendar</button>
                     </div>
                 </div>
             </div>
         </div>
 
-        <script src = "js/nav.js"></script>
-        <script src = "js/banner.js"></script>
-        <script src = "js/events.js"></script>
-    </body>
+        <script src="js/nav.js"></script>
+        <script src="js/banner.js"></script>
+        <script src="js/events.js"></script>
+</body>
 
-    </html>
+</html>
