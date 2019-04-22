@@ -27,13 +27,13 @@
 .btn {
     height: 2.25rem;
     margin-bottom: 1rem;
-    background-color: #DB2D3A;
-    border-color: #DB2D3A;
+    /* background-color: #DB2D3A;
+    border-color: #DB2D3A; */
 }
 
 .btn:hover {
-    background-color: #8F000A;
-    border-color: #8F000A;
+    background-color: #7CDA2F;
+    border-color: #7CDA2F;
 }
 
 .card-footer {
