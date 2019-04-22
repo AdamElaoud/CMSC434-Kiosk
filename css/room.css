@@ -37,3 +37,13 @@
     max-height: 25rem !important;
     overflow: auto;
 }
+
+.open {
+    background-color: #7CDA2F;
+    border-color: #7CDA2F;
+}
+
+.filled {
+    background-color: #DB2D3A;
+    border-color: #DB2D3A;
+}

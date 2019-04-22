@@ -14,7 +14,13 @@ function fillModal() {
             time = i + 8;
         }
 
-        table += '<tr><td>' + time + ':00</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>';
+        if (i % 3 === 0) {
+            table += '<tr><td>' + time + ':00</td><td class = "open"></td><td class = "filled"></td><td class = "filled"></td><td class = "open"></td><td class = "filled"></td><td class = "open"></td><td class = "filled"></td></tr>';
+        } else if (i % 3 === 1) {
+            table += '<tr><td>' + time + ':00</td><td class = "filled"></td><td class = "open"></td><td class = "open"></td><td class = "open"></td><td class = "filled"></td><td class = "open"></td><td class = "open"></td></tr>';
+        } else {
+            table += '<tr><td>' + time + ':00</td><td class = "open"></td><td class = "open"></td><td class = "open"></td><td class = "filled"></td><td class = "filled"></td><td class = "open"></td><td class = "open"></td></tr>';
+        }
     }
 
     table += '</tbody></table>';
