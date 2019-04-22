@@ -46,37 +46,37 @@
 
                     <tbody>
                         <tr>
-                            <td><a href = "#" onclick = "changeImage('img/floor_plans/Directions1.jpg');">IRB 1125</td>
+                            <td><a onclick = "changeImage('1125')" href = "#" >IRB 1125</td>
                         </tr>
                         <tr>
-                            <td><a href = "#">IRB 3147</td>
+                            <td><a onclick = "changeImage('3147')" href = "#">IRB 3147</td>
                         </tr>
                         <tr>
-                            <td><a href = "#">IRB 2314</td>
+                            <td><a onclick = "changeImage('2314')" href = "#">IRB 2314</td>
                         </tr>
                         <tr>
-                            <td><a href = "#">IRB 1231</td>
+                            <td><a onclick = "changeImage('1231')" href = "#">IRB 1231</td>
                         </tr>
                         <tr>
-                            <td><a href = "#">IRB 2314</td>
+                            <td><a onclick = "changeImage('2318')" href = "#">IRB 2318</td>
                         </tr>
                         <tr>
-                            <td><a href = "#">IRB 1404</td>
+                            <td><a onclick = "changeImage('1404')" href = "#">IRB 1404</td>
                         </tr>
                         <tr>
-                            <td><a href = "#">IRB 1206</td>
+                            <td><a onclick = "changeImage('1206')" href = "#">IRB 1206</td>
                         </tr>
                         <tr>
-                            <td><a href = "#">IRB 2304</td>
+                            <td><a onclick = "changeImage('2304')" href = "#">IRB 2304</td>
                         </tr>
                         <tr>
-                            <td><a href = "#">IRB 4152</td>
+                            <td><a onclick = "changeImage('4152')" href = "#">IRB 4152</td>
                         </tr>
                         <tr>
-                            <td><a href = "#">IRB 1525</td>
+                            <td><a onclick = "changeImage('1525')" href = "#">IRB 1525</td>
                         </tr>
                         <tr>
-                            <td><a href = "#">IRB 2601</td>
+                            <td><a onclick = "changeImage('2601')" href = "#">IRB 2601</td>
                         </tr>
                     </tbody>
                 </table>
@@ -91,8 +91,8 @@
         <script src = "js/banner.js"></script>
 
         <script type = "text/javascript">
-            function changeImage(element) {
-                document.getElementById('image').src = element;
+            function changeImage(room) {
+                document.getElementById('map').src = "img/floor_plans/Iribe_" + room + ".png";
             }
         </script>
     </body>
