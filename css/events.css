@@ -7,16 +7,6 @@
     margin: 1.5rem;
 }
 
-.icon-check {
-    color: #6FC74E;
-    margin-right: 1rem;
-}
-
-.icon-X {
-    color: #DB2D3A;
-    margin-right: 1rem;
-}
-
 .card-title {
     margin-top: 1rem;
     color: #000;
@@ -30,35 +20,22 @@
 
 .card-text {
     color: #000;
-    margin-bottom: 1rem !important;
+    margin-top: 1rem;
+}
+
+.btn {
+    height: 2.25rem;
+    margin-bottom: 1rem;
+    background-color: #DB2D3A;
+    border-color: #DB2D3A;
+}
+
+.btn:hover {
+    background-color: #8F000A;
+    border-color: #8F000A;
 }
 
 .card-footer {
     color: #fff;
     background-color: #EB4C58;
-}
-
-.available:hover {
-    background-color: #7CDA2F;
-    border-color: #7CDA2F;
-}
-
-.modal-title {
-    color: #000;
-    font-weight: bold;
-}
-
-.modal-body {
-    max-height: 25rem !important;
-    overflow: auto;
-}
-
-.open {
-    background-color: #7CDA2F;
-    border-color: #7CDA2F;
-}
-
-.filled {
-    background-color: #DB2D3A;
-    border-color: #DB2D3A;
 }
