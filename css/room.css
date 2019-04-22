@@ -23,14 +23,9 @@
     margin-bottom: 1rem !important;
 }
 
-.available {
-    background-color: #DB2D3A;
-    border-color: #DB2D3A;
-}
-
 .available:hover {
-    background-color: #8F000A;
-    border-color: #8F000A;
+    background-color: #7CDA2F;
+    border-color: #7CDA2F;
 }
 
 .modal-title {
