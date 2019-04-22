@@ -15,18 +15,19 @@ $('#sendMessageButton').on('click',function(event){
             $("#notification").append(`  
             <div class="alert alert-success alert-dismissible ">
                 <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-                <strong>Success!</strong> Feedback as been submitted
+                <strong>Success!</strong> Feedback as been submitted. Thanks you ${$('#name').val()}
             </div>`);
     
             $("#name").val('');
             $("#email").val('');
             $("#message").val('');
+            $("#phone").val('');
 
             removeLoading();
         }, 1000);
 
     } else{
-        
+
         setTimeout(function(){
             $("#notification").append(`  
             <div class="alert alert-danger alert-dismissible">
