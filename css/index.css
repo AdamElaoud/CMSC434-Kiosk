@@ -39,6 +39,6 @@ img{
     font-weight: bold;
 }
 
-.border {
-    border: 12px solid red
+.langBorder {
+    border: 2px solid #dc3545
 }
