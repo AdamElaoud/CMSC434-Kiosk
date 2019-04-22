@@ -7,3 +7,8 @@
   max-height: 70vh;
   overflow: auto;
 }
+
+td a:hover {
+    text-decoration: none;
+    color: #DB2D3A;
+}
