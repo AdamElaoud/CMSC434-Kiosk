@@ -34,7 +34,7 @@ img{
     flex-direction: column;
 }
 
-#caption {
+.caption {
     color: #000;
     font-weight: bold;
 }
