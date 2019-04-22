@@ -96,7 +96,13 @@
         <script type = "text/javascript">
             function changeImage(room) {
                 document.getElementById('map').src = "img/floor_plans/Iribe_" + room + ".png";
+                $(this).addClass('selectionColor');
             }
+
+            $("a").click(function(event) {
+                $("a").removeClass("selectionColor");
+                $(this).addClass('selectionColor');
+            });
         </script>
     </body>
 

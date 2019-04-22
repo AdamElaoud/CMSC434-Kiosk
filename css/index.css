@@ -34,11 +34,11 @@ img{
     flex-direction: column;
 }
 
-#caption {
+.caption {
     color: #000;
     font-weight: bold;
 }
 
 .langBorder {
-    border: 2px solid #dc3545
+    border-bottom: 2px solid #dc3545
 }

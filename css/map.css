@@ -24,3 +24,7 @@
     height: auto;
     margin-left: 15rem;
 }
+
+.selectionColor{
+    color: #dc3545 !important;
+}

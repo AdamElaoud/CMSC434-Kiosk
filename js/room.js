@@ -27,3 +27,18 @@ function fillModal() {
 
     modal.innerHTML = table;
 }
+
+$("#reserveRoom").on('click',function(event){
+    event.preventDefault();
+
+    $("#exampleModal").modal('toggle');
+
+    $("#notification").empty();
+
+    $("#notification").append(`  
+        <div class="alert alert-success alert-dismissible ">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Success!</strong> Reservation has been made!
+        </div>`);
+
+})
