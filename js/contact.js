@@ -15,7 +15,7 @@ $('#sendMessageButton').on('click',function(event){
             $("#notification").append(`  
             <div class="alert alert-success alert-dismissible ">
                 <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-                <strong>Success!</strong> Feedback as been submitted. Thanks you ${$('#name').val()}
+                <strong>Success!</strong> Feedback as been submitted. Thank you ${$('#name').val()}!
             </div>`);
     
             $("#name").val('');
