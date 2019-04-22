@@ -1,0 +1,26 @@
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#rooms {
+    position: absolute;
+    left: 5%;
+    margin-right: 5rem;
+}
+
+#rooms a {
+    color: #000;
+}
+
+#rooms a:hover {
+    color: #dc3545;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#map {
+    width: 60rem;
+    height: auto;
+    margin-left: 15rem;
+}
