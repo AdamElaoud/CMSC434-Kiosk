@@ -18,9 +18,19 @@
     font-weight: bold;
 }
 
+.logo {
+    width: 21rem;
+    height: auto;
+}
+
 .card-text {
     color: #000;
     margin-bottom: 1rem !important;
+}
+
+.card-footer {
+    color: #fff;
+    background-color: #EB4C58;
 }
 
 .available:hover {
