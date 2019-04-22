@@ -1,0 +1,49 @@
+.card {
+    margin: 1.5rem;
+}
+
+.icon-check {
+    color: #6FC74E;
+    margin-right: 1rem;
+}
+
+.icon-X {
+    color: #DB2D3A;
+    margin-right: 1rem;
+}
+
+.card-title {
+    margin-top: 1rem;
+    color: #000;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #000;
+    margin-bottom: 1rem !important;
+}
+
+.available:hover {
+    background-color: #7CDA2F;
+    border-color: #7CDA2F;
+}
+
+.modal-title {
+    color: #000;
+    font-weight: bold;
+}
+
+.modal-body {
+    max-height: 25rem !important;
+    overflow: auto;
+}
+
+.open {
+    background-color: #7CDA2F;
+    border-color: #7CDA2F;
+}
+
+.filled {
+    background-color: #DB2D3A;
+    border-color: #DB2D3A;
+}
