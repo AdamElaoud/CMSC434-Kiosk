@@ -2,7 +2,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-#nav-home {
+#nav-home, #nav-room, #nav-events, #nav-directory, #nav-map, #nav-feedback {
     margin-top: 2rem;
     font-size: 1.25rem;
 }
